@@ -1,20 +1,7 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Style Hub", "DarkTheme")
 
-local Tab = Window:NewTab("Teleport")
-local Section = Tab:NewSection("Teleport")
 
-Section:NewButton("Teleport T1", "Teleport T1", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-861.024292, 231.19104, 455.302795, -0.705958724, 0, -0.708252966, 0, 1, 0, 0.708252966, 0, -0.705958724)
-end)
-
-Section:NewButton("Teleport T2", "Teleport T2", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new()
-end)
-
-Section:NewButton("Teleport T3", "Teleport T3", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new()
-end)
 
 local Tab = Window:NewTab("Exit UI")
 local Section = Tab:NewSection("Exit UI")
